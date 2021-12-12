@@ -1,3 +1,59 @@
 body {
   padding: 2rem;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+ul {
+  display: flex;
+  background-color: grey;
+  padding: 10px;
+}
+ul,
+li {
+  border-radius: 7px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+ul li:hover {
+  background: lightgrey;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#end {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  display: flex;
+}
+#end h1 {
+  margin: auto;
+  font-size: 150px;
+}
